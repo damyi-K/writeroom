@@ -27,7 +27,7 @@ body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--sans);font
 .wrap{max-width:820px;margin:0 auto;padding:28px 18px 64px}
 header{padding:8px 0 4px}
 h1{font-family:var(--serif);font-weight:700;font-size:2rem;margin:0;letter-spacing:.01em}
-.sub{color:var(--soft);margin:2px 0 0}
+.subtitle{color:var(--soft);margin:2px 0 0}
 nav{display:flex;gap:4px;margin:20px 0 24px;border-bottom:1px solid var(--line);flex-wrap:wrap}
 .tab{border:0;background:none;color:var(--soft);font:500 .95rem var(--sans);padding:10px 14px;cursor:pointer;border-bottom:2px solid transparent;margin-bottom:-1px;white-space:nowrap}
 .tab[aria-selected="true"]{color:var(--ink);border-bottom-color:var(--accent)}
@@ -107,7 +107,7 @@ input[type=range]{padding:0;accent-color:var(--accent);vertical-align:middle}
 <div class="wrap">
   <header>
     <div class="row"><h1 class="grow">글방</h1><button class="btn sec" data-act="decor" aria-label="설정" title="설정" style="padding:7px 9px;line-height:0"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg></button></div>
-    <p class="sub">쓰고, 모으고, 정리하는 작은 책상</p>
+    <p class="subtitle">쓰고, 모으고, 정리하는 작은 책상</p>
   </header>
   <div class="panel" id="decor" hidden style="margin-top:14px">
     <div class="lbl">테마</div><div class="sw" id="sw"></div>
